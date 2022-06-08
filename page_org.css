@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@font-face {
+  font-family: 'samim';
+  src: url(font/Samim.ttf)format('truetype');
+}
+
+body {
+    margin: 0;
+    background-color: #2b2d42;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #d90429;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+ul.nav li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'samim';
+  transition: 0.3s;
+  float: right;
+  padding: 15px;
+}
+
+.Home{
+  background-color: #2b2d42;
+  color:#fff;
+}
+
+ul.nav li a:hover:not(.Home) {
+  background-color: #fff;
+  color: #d90429;
+}
+
+div.text {
+  margin: 0 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+div.logo {
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 3%;
+    margin: 0;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logoimg {
+    clip-path: Circle(50%);
+}
+
+.namelogo {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    color: #d90429;
+}
+
+.pinfo {
+    padding: 20px;
+    font-family: 'samim';
+    text-align: justify;
+    font-size: 30px;
+}
+
+#s1,
+#s2 {
+    color: #d90429;
+    font-weight: bold;
+}
+
+#notsee {
+    text-align: center;
+    color: #d90429;
+}
+
+@media screen and (max-width: 900px) {
+  ul.nav {
+    
+  }
+}
+
+.footer {
+  height: 120px;
+  width: 100%;
+  background-color: #d90429;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.icons {
+  display: block;
+  flex-direction: row;
+  margin-right: 40px;
+}
+
+.icons a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.icons a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+ion-icon {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.infosite p {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  font-family: 'samim';
+}
+
+.infosite span {
+  color: #2b2d42;
+}

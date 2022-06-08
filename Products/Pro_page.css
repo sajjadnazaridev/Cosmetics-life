@@ -1,0 +1,247 @@
+@font-face {
+  font-family: 'samim';
+  src: url(../font/Samim.ttf)format('truetype');
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #2b2d42;
+  font-family: 'samim';
+}
+
+.products{
+  height: 660px;
+  background-image: url(image/4\ produse\ care\ te\ scapa\ de\ acnee\ si\ riduri\ in\ acelasi\ timp.jpg);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.menu ul{
+  list-style-type: none;
+}
+
+.menu ul li{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.menu ul li a:hover{
+  color: pink;
+  font-size: large;
+  padding: 0 5px;
+  border-left: 3px solid pink;
+  border-right: 3px solid pink;
+}
+
+.products h1{
+  margin-top: 200px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.products h1 span{
+  color: #d90429;
+}
+
+.products p{
+  width: 300px;
+  margin: auto;
+  padding: 5px;
+  margin-top: 20px;
+  border: 5px solid pink;
+  border-radius: 50px;
+  color: white;
+}
+
+.beautiful-post , .care-post , .protection-post{
+  text-align: center;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.beautiful-post:hover , .care-post:hover , .protection-post:hover{
+  background-color: #e0e0e0;
+}
+
+.titel{
+  margin: 0 0 10px;
+}
+
+.titel , h2 , h4 {
+  color: rgb(122, 122, 122)
+}
+
+.list-be , .list-care , .list-protect{
+  list-style-type: none;
+  margin: 10px 10px 0;
+}
+
+.item-bea , .item-care , .item-protect{
+  display: inline-block;
+  width: 250px;
+  margin: 10px;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  border-radius: 50px;
+  background-color:rgb(248, 246, 246);
+  transition: 0.3s;
+}
+
+.item-bea:hover , .item-care:hover , .item-protect:hover{
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  margin: 20px;
+}
+
+.products-bea img , .care-post img , .protection-post img{
+  width: 100%;
+  border-radius: 45px;
+}
+
+.list-bea h2 , .list-care h2 , .list-protect h2{
+  margin: 8px;
+} 
+
+.list-bea p , .list-care p , .list-protect p{
+  text-align: justify;
+  margin: 5px;
+}
+
+.btn{
+  border: none;
+  margin: 8px 0;
+  width: 150px;
+  border-radius: 50px;
+  background-color: pink;
+  font-family: 'samim';
+  padding: 2px;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  background-color: rgb(221, 131, 180);
+  color: #fff;
+}
+
+.about-care{
+  height: 660px;
+  background-image: url(image/bb27c0ab-3762-44fe-9d8f-f678185cc376.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 20px 0 0;
+}
+
+.effect{
+  color: white;
+  overflow: hidden;
+  border-left: 5px solid pink;
+  white-space: nowrap;
+  font-size: 30px;
+  width: 0;
+  animation: typing 3s forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+  from { width: 0;}
+  to { width: 95%;}
+}
+
+.about-care p , .about-protect p{
+  color: pink;
+  margin-top: 70px;
+  font-weight: bold;
+}
+
+.about-protect{
+  height: 660px;
+  background-image: url(image/These\ Night\ Oils\ Do\ Amazing\ Things\ to\ Your\ Skin\ While\ You\ Sleep.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+  text-align: center;
+}
+
+.scroll{
+  width:100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.scrollbtn{
+  width: 100%;
+  border: none;
+  background-color: pink;
+  color: white;
+  padding: 10px;
+  font-family: 'samim';
+  transition: 0.3s;
+}
+
+.scrollbtn:hover{
+  background-color: #d90429;
+  padding: 20px;
+  font-size: large;
+}
+
+.footer {
+  height: 120px;
+  width: 100%;
+  background-color: #d90429;
+  text-align: center;
+}
+
+.icons {
+  display: block;
+  flex-direction: row;
+  margin-right: 40px;
+}
+
+.icons a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.icons a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+ion-icon {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.infosite p {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.infosite span {
+  color: #2b2d42;
+}

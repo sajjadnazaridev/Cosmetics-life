@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@font-face {
+  font-family: 'samim';
+  src: url(../font/Samim.ttf)format('truetype');
+}
+
+body {
+    margin: 0;
+    background-color: #2b2d42;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #d90429;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+ul.nav li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'samim';
+  transition: 0.3s;
+  float: right;
+  padding: 15px;
+}
+
+.Contact{
+  background-color: #2b2d42;
+  color:#fff;
+}
+
+ul.nav li a:hover:not(.Contact) {
+  background-color: #fff;
+  color: #d90429;
+}
+
+.about{
+    background-color: #fff;
+    margin: 50px;
+    border-radius: 50px;
+    text-align: center;
+    border: 5px solid #d90429;
+    font-family: 'samim';
+    transition: 0.7s;
+}
+
+.about:hover{
+    border: 5px solid #fff;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 2px 4px, rgba(255, 255, 255, 0.3) 0px 7px 13px -3px, rgba(255, 255, 255, 0.2) 0px -3px 0px inset;
+}
+
+.about img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+.about h1{
+    color:#d90429;
+}
+
+.about p{
+    margin: 25px;
+    text-align: justify;
+}
+
+.present{
+    color:#d90429;
+    font-weight: bold;
+}
+
+.footer {
+  height: 120px;
+  width: 100%;
+  background-color: #d90429;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.icons {
+  display: block;
+  flex-direction: row;
+  margin-right: 40px;
+}
+
+.icons a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.icons a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+ion-icon {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.infosite p {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  font-family: 'samim';
+}
+
+.infosite span {
+  color: #2b2d42;
+}

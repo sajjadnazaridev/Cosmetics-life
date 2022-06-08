@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'samim';
+  src: url(../font/Samim.ttf)format('truetype');
+}
+
+body {
+  margin: 0;
+  background-color: #2b2d42;
+  font-family: 'samim';
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #d90429;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+ul.nav li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  float: right;
+  padding: 15px;
+}
+
+.Buy {
+  background-color: #2b2d42;
+  color: #fff;
+}
+
+ul.nav li a:hover:not(.Buy) {
+  background-color: #fff;
+  color: #d90429;
+}
+
+.cards {
+  text-align: center;
+  padding: 50px;
+}
+
+.list-card {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item-card {
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+#cardg {
+  background-color: #e4b61a;
+  transition: 0.3s;
+}
+
+#cardg:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border: 5px solid #e4b61a;
+}
+
+#cardsi {
+  background-color: #848383;
+  transition: 0.3s;
+}
+
+#cardsi:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border: 5px solid #848383;
+}
+
+#cardb {
+  background-color: #774936;
+  transition: 0.3s;
+}
+
+#cardb:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border: 5px solid #774936;
+}
+
+.item-card p {
+  text-align: justify;
+  margin: 20px;
+}
+
+.btns {
+  font-family: inherit;
+  width: 200px;
+  height: 35px;
+  border-radius: 40px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #2b2d42;
+  color: white;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+#btn1:hover {
+  background-color: #e4b61a;
+  width: 250px;
+  height: 40px;
+}
+
+#btn2:hover {
+  background-color: #848383;
+  width: 250px;
+  height: 40px;
+}
+
+#btn3:hover {
+  background-color: #774936;
+  width: 250px;
+  height: 40px;
+}
+
+.footer {
+  height: 120px;
+  width: 100%;
+  background-color: #d90429;
+  text-align: center;
+}
+
+.icons {
+  display: block;
+  flex-direction: row;
+  margin-right: 40px;
+}
+
+.icons a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.icons a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+ion-icon {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.infosite p {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+}
+
+.infosite span {
+  color: #2b2d42;
+}
